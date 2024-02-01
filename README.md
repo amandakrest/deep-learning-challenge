@@ -10,13 +10,21 @@ The target variable for this model is the "IS_SUCCESSFUL" column because we are 
 
 The following variables are the features for my model:
 APPLICATION_TYPE—Alphabet Soup application type
+
 AFFILIATION—Affiliated sector of industry
+
 CLASSIFICATION—Government organization classification
+
 USE_CASE—Use case for funding
+
 ORGANIZATION—Organization type
+
 STATUS—Active status
+
 INCOME_AMT—Income classification
+
 SPECIAL_CONSIDERATIONS—Special considerations for application
+
 ASK_AMT—Funding amount requested
 
 EIN and Name, the identification columns, are removed from the input data because they aren't targets or features.
@@ -26,6 +34,7 @@ Compiling, Training, and Evaluating the Model
 
 For my initial neural network, I started with 2 hidden layers with the activation function "relu", my output layer uses sigmoid because it performs well in classification predictions.
 ![image](https://github.com/amandakrest/deep-learning-challenge/assets/142050568/a3aae10f-4da4-4ad1-b06c-2c950588a049)
+
 
 This model is 62% accurate, which is better than a random guess but leaves room for improvement.
 ![image](https://github.com/amandakrest/deep-learning-challenge/assets/142050568/5f4056dc-c9e9-4e90-8df9-a1a38dda3305)
