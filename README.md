@@ -48,6 +48,7 @@ To increase model performance, I first added a hidden layer and adjusted the num
 On my second attempt at optimizing my model, I included the Names of the companies that had 10 or more loans. I used the same neural network as my previous attempt in order to keep track of how each change affected the model. 
 ![image](https://github.com/amandakrest/deep-learning-challenge/assets/142050568/57e69f67-01b2-45eb-b793-7c4fa390d7e9)
 ![image](https://github.com/amandakrest/deep-learning-challenge/assets/142050568/c70c8bf0-666d-4006-9ff2-c8b511fe7e3a)
+
 This model reached 78% accuracy. 
 
 
